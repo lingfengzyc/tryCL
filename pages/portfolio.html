@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<!-- header -->
+<div class="text-center">
+  <p style="margin-top: 0.5cm;"><font size="+3"><strong>MY PORTFOLIO.</strong>&nbsp;TAKE A LOOK.</font></p>
+  <p class="text-center" color="#808080" style="margin-bottom: 0.5cm;">
+    <font color="#808080" size="-1">These are examples of my work</font color>
+</div>
+
+<!-- css style for formating images -->
+<!-- <style>
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid black;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    border: 1px solid black;
+  }
+</style>
+
+adds in images here -->
+<!-- <div class="row">
+  <div class="column">
+    <a href="https://ansley-franks.github.io/aframe-group/">
+      <img src="images/aframe actual.png" alt="aframe" width="100%">
+    </a>
+      <figcaption>this project is made using</figcaption>
+  </div>
+  <div class="column">
+    <a href="https://twitter.com/gthackerszero">
+      <img src="images/steal the t's.png" alt="twitterbot" width="100%">
+    </a>
+    <p></p>
+  </div>
+  <div class="column">
+    <a href="https://congrets.github.io/cookieclone/">
+      <img src="images/cookie clone.png" alt="cookie clone" width="100%">
+    </a>
+    <p></p>
+  </div>
+</div>
+</div> -->
+
+<!-- <style>
+  hr {
+    position: relative;
+    top: 25px;
+    border: none;
+    height: 1.5px;
+    background: black;
+    margin-bottom: 65px;
+  }
+</style>
+
+<hr /> -->
+
+<style>
+  .container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    color: black;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  </style>
+
+<div class="container" style="margin-bottom: 1cm;">
+  <a href="https://ansley-franks.github.io/aframe-group/">
+    <img src="images/aframe actual.png" alt="Aframe" class="image" style="width:100%; border: 2px solid black;">
+  </a>
+  <div class="middle">
+    <div class="text">This was made in Aframe, a 3D dimensional</div>
+  </div>
+</div>
+
+<div class="container" style="margin-bottom: 1cm;">
+  <a href="https://twitter.com/home">
+    <img src="images/steal the t's.png" alt="TwitBot" class="image" style="width:100%; border: 2px solid black;">
+  </a>
+  <div class="middle">
+    <div class="text">This was made in Aframe, a 3D dimensional</div>
+  </div>
+</div>
+
+<div class="container" style="margin-bottom: 1cm;">
+  <a href="https://congrets.github.io/cookieclone/">
+    <img src="images/cookie clone.png" alt="cookieclone" class="image" style="width:100%; border: 2px solid black;">
+  </a>
+  <div class="middle">
+    <div class="text">This was made in Aframe, a 3D dimensional</div>
+  </div>
+</div>
+
+
+
+</body>
+</html>
